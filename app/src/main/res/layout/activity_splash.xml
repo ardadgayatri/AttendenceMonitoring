@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashbgcolor"
+    tools:context=".SplashActivity">
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="250dp"
+       android:id="@+id/ivsplashLogo"
+       android:src="@drawable/check"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+       android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tvSplashTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivsplashLogo"
+        android:layout_marginTop="20dp"
+        android:text="Attendence Monitoring"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/black_ops_one"/>
+
+</RelativeLayout>

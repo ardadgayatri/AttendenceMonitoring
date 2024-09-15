@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity"
+    android:orientation="vertical"
+    android:layout_margin="10sp">
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/ivMyProfileProfilePhoto"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/icon_myprofile"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/acbtnMyProfileEditProfile"
+        android:background="@color/blue"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:text="Edit Profile"
+        />
+
+
+    <TextView
+        android:id="@+id/tvMyProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:background="@drawable/tv_bg_shape"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+       android:paddingLeft="10sp"/>
+
+    <TextView
+        android:id="@+id/tvMyProfileMobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="20dp"
+        android:text="MobileNo"
+        android:textColor="@color/black"
+        android:background="@drawable/tv_bg_shape"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:paddingLeft="10sp"/>
+
+
+    <TextView
+        android:id="@+id/tvMyProfileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="20dp"
+        android:text="EmailId"
+        android:textColor="@color/black"
+        android:background="@drawable/tv_bg_shape"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:paddingLeft="10sp"/>
+
+    <TextView
+        android:id="@+id/tvMyProfileUsername"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_marginTop="20dp"
+        android:text="Username"
+        android:textColor="@color/black"
+        android:background="@drawable/tv_bg_shape"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:paddingLeft="10sp"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignOut"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg_shape"
+        android:fontFamily="@font/aldrich"
+        android:text="SignOut"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
